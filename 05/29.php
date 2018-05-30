@@ -9,12 +9,29 @@
 </head>
 <body>
   <h1>Obtener Data ID de un elemento dando clic en cualquier TD dentro del mismo TR</h1>
-  <code>
-  $('td').click(function(){
-    var data = $(this).parent().find('button').attr('data');
-    console.log(data);
-  });
-  </code>
+  <section>
+    <code>
+      $('td').click(function(){
+        var data = $(this).parent().find('button').attr('data');
+      });
+    </code>  
+  </section>
+  <hr>
+  <section>
+    <p>
+      Pregunta en Stackoverflow Español:
+    </p>
+    <ul>
+      <li>
+        <a href="https://es.stackoverflow.com/questions/168871/c%C3%B3mo-obtener-la-data-de-un-boton-que-se-encuentre-en-cualquier-td-de-su-misma/168881">
+          https://es.stackoverflow.com/questions/168871/c%C3%B3mo-obtener-la-data-de-un-boton-que-se-encuentre-en-cualquier-td-de-su-misma/168881
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  
+  
 
 
 <!-- Create a simple CodeMirror instance -->
